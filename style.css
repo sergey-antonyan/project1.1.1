@@ -1,0 +1,167 @@
+*{
+   margin:0;
+   padding:0;
+box-sizing: border-box;
+}
+
+header{
+   display: flex;
+   justify-content:space-between;
+   background-color:#333333;
+   font-size: 32px;
+   color: #D7C278;
+   line-height: 100px;
+   position: fixed;
+   width:100% ;
+}
+
+.DARGS{
+   width: 150px;
+}
+
+header div ul{
+   display:flex;
+}
+
+header div ul li{
+   display:flex;
+   margin-right: 30px;
+}
+
+nav {
+   width: 25%;
+   height:auto ;
+}
+
+.inpnum{
+ width: 100px;
+}
+
+#basket{
+   width: 150px;
+}
+
+img{
+   width: 100px;
+   height: 100px;
+   cursor: pointer;
+}
+
+#inpsea{
+ height: 30px;
+ margin-top: 35px;
+border-radius:  15px ;
+width: 200px;
+}
+
+nav{
+   font-size: 32px;
+   margin-top: 100px;
+}
+
+#productsul li{
+   cursor: pointer;
+}
+
+#navfilt{
+   font: 40px serif;
+   text-align: center;
+   letter-spacing: 5px;
+}
+
+nav ul li {
+   padding-top: 30px;
+}
+
+#productsul{
+   margin-left: 60px;
+}
+
+#products:hover{
+   color: #da6e21;
+}
+
+#productsul li:hover{
+   color:#D7C278;
+}
+
+.inpnum{
+   border-radius:  8px ;
+}
+
+#main{
+   width: 75%;
+   height: auto;
+   background-image: url(../Project2/foto/mainbackground);
+   margin-top: 100px;
+}
+
+#navmain{
+   display: flex;
+}
+
+.container{
+   width: 210px;
+   height: 350px;
+   display: inline-block;
+   background-color: rgb(255, 255, 255);
+   margin: 40px;
+   margin-left: 120px;
+   margin-top: 20a0px;
+}
+
+.imageCss{
+ width: 210px;
+ height: 200px;
+}
+
+.priceCss{  display: inline-block;
+    width: 150px;
+    height:100px;
+    background-color:#333333;
+    font-size: 20px;
+    text-align: center;
+    line-height: 120px;
+    color: #D7C278;
+}
+
+.buttonCss{  display: inline-block;
+   width: 150px;
+   height: 100px;
+   background-image: url(../Project2/foto/basketlogo);
+   background-size: 100% 100%;
+   font-size: 20px;
+   border: none;
+   cursor: pointer;
+}
+
+.nameCss{
+   background-color:#4e4646;
+   font-size: 24px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   color: #faeeee;
+}
+
+.pricebutton{
+   display: flex;
+}
+
+#abcon{
+   margin-top: 100px;
+}
+
+
+
+#contact{
+   margin-top: 100px;
+}
+a:visited{
+   color: #D7C278;
+}
+
+
+/* .buttonCss:hover .nameCss{
+   color: red;
+} */
